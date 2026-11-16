@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Madiha | Data Analyst Portfolio</title>
+  <style>
+    :root {
+      --bg: #f6f8fb;
+      --card: #ffffff;
+      --text: #1d2733;
+      --muted: #5b6b7c;
+      --accent: #0f6b8f;
+      --line: #dbe3ec;
+    }
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --bg: #12181f;
+        --card: #1a232d;
+        --text: #e8eef4;
+        --muted: #9fb0c0;
+        --accent: #5cc0e6;
+        --line: #2b3745;
+      }
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: "Segoe UI", Arial, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.6;
+    }
+    header {
+      max-width: 760px;
+      margin: 0 auto;
+      padding: 64px 20px 24px;
+    }
+    h1 { font-size: 2.4rem; margin: 0 0 8px; }
+    .tagline { color: var(--muted); font-size: 1.15rem; margin: 0; }
+    main { max-width: 760px; margin: 0 auto; padding: 0 20px 64px; }
+    section { margin-top: 36px; }
+    h2 { font-size: 1.3rem; border-bottom: 2px solid var(--line); padding-bottom: 6px; }
+    .skills { display: flex; flex-wrap: wrap; gap: 10px; padding: 0; list-style: none; }
+    .skills li {
+      background: var(--card);
+      border: 1px solid var(--line);
+      padding: 6px 14px;
+      border-radius: 20px;
+    }
+    .project {
+      background: var(--card);
+      border: 1px solid var(--line);
+      border-radius: 10px;
+      padding: 16px 18px;
+      margin-bottom: 14px;
+    }
+    .project h3 { margin: 0 0 4px; font-size: 1.05rem; }
+    .project p { margin: 0; color: var(--muted); }
+    a { color: var(--accent); }
+    footer { text-align: center; color: var(--muted); padding: 24px 20px 40px; font-size: 0.9rem; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Madiha</h1>
+    <p class="tagline">Computer Science student turning data into clear answers.</p>
+  </header>
+
+  <main>
+    <section>
+      <h2>About me</h2>
+      <p>
+        I am a Computer Science student at Government College Women University Faisalabad.
+        I am building my skills in data analysis and I am looking for a Data Analyst internship or role.
+      </p>
+    </section>
+
+    <section>
+      <h2>Skills</h2>
+      <ul class="skills">
+        <li>SQL</li>
+        <li>Power BI</li>
+        <li>Excel</li>
+        <li>Python (learning)</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Projects</h2>
+      <div class="project">
+        <h3>Superstore Sales Analysis</h3>
+        <p>Answered business questions about sales and profit using Excel.</p>
+      </div>
+      <div class="project">
+        <h3>Your next project</h3>
+        <p>Replace this text with a short description of your project.</p>
+      </div>
+    </section>
+
+    <section>
+      <h2>Contact</h2>
+      <p>Email: <a href="mailto:youremail@example.com">youremail@example.com</a></p>
+    </section>
+  </main>
+
+  <footer>Made by Madiha</footer>
+</body>
+</html>
